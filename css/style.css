@@ -1,0 +1,253 @@
+/* Standard Style */
+:root{
+    --main: #feb21e;
+    --hover: #FFA500;
+    --bg: #fff0d1;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+.btn-primary.active:focus, 
+.btn-primary:active:focus {
+    box-shadow: none;
+}
+
+.btn-success.active:focus, 
+.btn-success:active:focus {
+    box-shadow: none;
+}
+.btn-danger.active:focus, 
+.btn-danger:active:focus {
+    box-shadow: none;
+}
+
+.btn-primary{
+    background-color: var(--main);
+    border-color: var(--main);
+}
+.btn-primary:hover{
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: var(--main); 
+    border-color: var(--main); 
+    box-shadow: none; 
+}
+.btn-success{
+    background-color: #00d87e;
+    border: none;
+}
+.btn-success:hover{
+    background-color: #00d451;
+}
+.btn-success:focus{
+    background-color: #00d87e;
+    box-shadow: none;
+}
+.btn-danger{
+    background-color: #FF4B5B;
+    border: none;
+}
+.btn-danger:hover{
+    background-color: #ff0021;
+    border: none;
+}
+.btn-danger:focus{
+    background-color: #ff0021;
+    box-shadow: none;
+}
+.alert-danger{
+    color: #fff;
+    background-color: #ff3333;
+    border-color: transparent;
+    margin: 5px;
+}
+.alert-success{
+    color: #fff;
+    background-color: #19e0a5;
+    border-color: transparent;
+    margin: 5px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--main);
+}
+/*---------------------------------*/
+
+/* Start navbar style */
+.navbar{
+    background-color: var(--main);
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.navbar .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: none; 
+}
+.navbar .nav-item .nav-link{
+    font-weight: 500;
+    padding: 10px 30px;
+    color: var(--bg);
+    border-radius: 10px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #fff;
+}
+.navbar .nav-item .nav-link.active{
+    background-color: var(--bg);
+    color: var(--main);
+}
+.navbar .nav-item .nav-link i{
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+    font-size: 21px;
+}
+/* End navbar style */
+
+/* Start home page style */
+.home{
+    background-color: var(--bg);
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.home h1{
+    text-align: center;
+}
+.dishes{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dishes .row{
+    justify-content: center;
+}
+.dishes .stat{
+    display: flex;
+    align-items: center;
+    background-color: var(--bg);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+.dishes .inf{
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.dishes .inf p{
+    font-size: 14px;
+    color: #767676;
+    height: 85px;
+    overflow: hidden;
+}
+.dishes .row .img img{
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+}
+.dishes .prc{
+    padding: 10px 20px;
+    background-color: var(--bg);
+    border-top: 1px solid #fff;
+}
+.dishes .edit{
+    padding: 10px 20px;
+    background-color: var(--bg);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #fff;
+}
+.reviews{
+    background-color: var(--bg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reviews span{
+    margin-left: 5px;
+}
+.reviews i{
+    color: var(--main);
+    position: relative;
+    top: 1px;
+}
+/* End home page style */
+
+/* Start datail page style */
+.all-detail{
+    background-color: var(--bg);
+    height: 80vh;
+}
+.detail{
+    display: flex;
+    align-items: center;
+}
+.detail .img img{
+    width: 400px;
+    border-radius: 20px;
+}
+.all-detail .prc{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--bg);
+    border-top: 1px solid #fff;
+}
+/* End detail page style */
+
+/* Start contact page style */
+.contact{
+    background-color: var(--bg);
+    padding: 20px;
+    border-radius: 20px;
+}
+.contact form{
+    margin-top: 25px;
+}
+/* End contact page style */
+
+/* Start confirm order page style */
+.confirm{
+    background-color: var(--bg);
+    padding: 15px;
+}
+/* End confirm order page style */
+
+/* Start review page style */
+.add-rev{
+    background-color: var(--bg);
+    padding: 20px;
+}
+.rev .hero{
+    background-color: var(--bg);
+    padding: 20px;
+    border-bottom: 3px solid #fff;
+}
+.rev .hero span{
+    margin-left: 5px;
+}
+.rev .hero i{
+    color: var(--main);
+    position: relative;
+    top: 1px;
+}
+/* End review page style */

@@ -1,0 +1,296 @@
+/* Standard Style */
+:root{
+    --main: #feb21e;
+    --hover: #FFA500;
+    --bg: #fff0d1;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+.btn-primary.active:focus, 
+.btn-primary:active:focus {
+    box-shadow: none;
+}
+
+.btn-success.active:focus, 
+.btn-success:active:focus {
+    box-shadow: none;
+}
+.btn-danger.active:focus, 
+.btn-danger:active:focus {
+    box-shadow: none;
+}
+
+.btn-primary{
+    background-color: var(--main);
+    border-color: var(--main);
+}
+.btn-primary:hover{
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: var(--main); 
+    border-color: var(--main); 
+    box-shadow: none; 
+}
+.btn-success{
+    background-color: #00d87e;
+    border: none;
+}
+.btn-success:hover{
+    background-color: #00d451;
+}
+.btn-success:focus{
+    background-color: #00d87e;
+    box-shadow: none;
+}
+.btn-danger{
+    background-color: #FF4B5B;
+    border: none;
+}
+.btn-danger:hover{
+    background-color: #ff0021;
+    border: none;
+}
+.btn-danger:focus{
+    background-color: #ff0021;
+    box-shadow: none;
+}
+.alert-danger{
+    color: #fff;
+    background-color: #ff3333;
+    border-color: transparent;
+    margin: 5px;
+}
+.alert-success{
+    color: #fff;
+    background-color: #19e0a5;
+    border-color: transparent;
+    margin: 5px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--main);
+}
+/*---------------------------------*/
+/* Start login admin page style */
+.login{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login form{
+    width: 100%;
+    max-width: 550px;
+    background-color: var(--bg);
+    padding: 120px 30px;
+    margin: 15px;
+    border-radius: 13px;
+}
+.login form h3{
+    position: relative;
+    bottom: 50px;
+}
+.login form button{
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+/* End login admin page style */
+
+/* Start navbar style */
+.navbar{
+    background-color: var(--main);
+}
+.navbar .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.navbar .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: none; 
+}
+.navbar .nav-item .nav-link{
+    font-weight: 500;
+    padding: 10px 30px;
+    color: var(--bg);
+    border-radius: 10px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #fff;
+}
+.navbar .nav-item .nav-link.active{
+    background-color: var(--bg);
+    color: var(--main);
+}
+.navbar .nav-item .nav-link i{
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+    font-size: 21px;
+}
+/* End navbar style */
+
+/* Start dashboard Page style */
+.dash-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 15px;
+}
+.dash-info .stat{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.dash-info .stat .icn i{
+    color: var(--main);
+    margin-right: 20px;
+    padding: 8px;
+    background-color: var(--bg);
+    border-radius: 18px;
+    font-size: 30px;
+}
+.dash-info .stat .inf{
+    position: relative;
+    top: 8px;
+}
+.dash-info .stat .inf{
+    font-size: 20px;
+}
+.dash-info .stat .inf p{
+    font-weight: 500;
+}
+.table tbody tr{
+    border-bottom-color: #fff;
+    
+}
+.dash-info .card{
+    border: 2px solid #F8F9FA;
+    border-radius: 10px;
+}
+.dash-info .card .list-group-item p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+/* End dashboard Page style */
+
+/* Start account Page style */
+.profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile .icn i{
+    font-size: 60px;
+    padding: 28px;
+    background-color: var(--bg);
+    color: var(--main);
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.profile .card{
+    border: 2px solid #F8F9FA;
+    border-radius: 10px;
+}
+.profile .card .card-body{
+    background-color: var(--bg);
+    border-radius: 10px;
+}
+.profile .card .card-body .list-group-item{
+    border: 1px solid var(--bg); 
+}
+.profile .card .card-body .list-group-item p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #666;
+}
+.profile .btn-danger{
+    padding: 6px 40px;
+}
+.profile .edit{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.profile .edit:focus{
+    box-shadow: none;
+}
+.profile .edit-2{
+    margin-top: 16px;
+    margin-right: 8px;
+}
+.profile .edit-2:focus{
+    box-shadow: none;
+}
+.profile .btn-primary{
+    padding: 5px 20px;
+    margin-right: 8px;
+}
+/* End account Page style */
+
+/* Start admins Page style */
+.admins{
+    background-color: var(--bg);
+}
+/* End admins Page style */
+
+/* Start menu Page style */
+.dishes .row .img img{
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+}
+.menu .card .card-body .list-group-item p{
+    margin-bottom: 0px;
+}
+.dishes .row{
+    justify-content: center;
+}
+.dishes .stat{
+    display: flex;
+    align-items: center;
+    background-color: var(--bg);
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+.dishes .inf{
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.dishes .inf p{
+    font-size: 14px;
+    color: #767676;
+    height: 85px;
+    overflow: hidden;
+}
+.dishes .prc{
+    padding: 10px 20px;
+    background-color: var(--bg);
+    border-top: 1px solid #fff;
+}
+.dishes .edit{
+    padding: 10px 20px;
+    background-color: var(--bg);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #fff;
+}
+/* End menu Page style */
+
