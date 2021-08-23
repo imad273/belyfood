@@ -1,0 +1,65 @@
+============================
+==== Database structure ====
+============================
+Admins Table:
+    - admin_id | int(11)
+    - username | varchar(255)
+    - password | varchar(255)
+    - fullname | varchar(255)
+    - date     | Date
+
+Food Menu Table:
+    - dish_id     | int(11)
+    - name        | varchar(255)
+    - image       | varchar(255)
+    - description | text
+    - price       | varchar(255)
+
+Order Food Table:
+    - order_id       | int(11)
+    - name           | varchar(255)
+    - price          | varchar(255)
+    - client_name    | varchar(255)
+    - client_address | varchar(255)
+    - client_phone   | varchar(255)
+    - quantity       | small int
+    - order_date     | Date
+
+Review customers Table:
+    - review_id      | int(11)
+    - reviewer_name  | varchar(255)
+    - description    | text
+    - rate           | small int   // 1/10 //
+
+
+==========================
+==== Pages & Features ====
+==========================
+Admin side:
+    - navbar
+        - Dashboard
+        - Manage Order
+        - Menu
+        - Account
+
+    - Dashboard:
+        - information
+            - Food Delivred 
+            - Balance
+            - review
+        - latest order list
+    - Manage Orders
+        - Order information:
+            - preparing
+            - completed 
+        - preparing order list
+        - completed order list
+    - Menu
+        - available dishes
+    - Account 
+        - edit profile page
+        - Profile info
+        - edit password 
+        - logout 
+
+        
