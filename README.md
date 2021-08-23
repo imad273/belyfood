@@ -1,2 +1,2 @@
 # BELYFOOD
-[This is img](githup/Capture.PNG)
+[This is img](/githup/Capture.PNG)
