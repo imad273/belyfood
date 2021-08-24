@@ -11,5 +11,6 @@
     * MYSQL Database.
     
 Belyfood is website to order food with admin panel, Admins can be prepare menu, add or delete dishes.
-after finish this project, I learned some things about security like filter function and manage session
+
+after finish this project, I learned some things about security like filter function and manage session.
 
