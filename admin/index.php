@@ -39,7 +39,7 @@
                     echo "</div>";
                     $_SESSION['adminUsername'] = $rows['UserName'];
                     $_SESSION["adminId"] = $rows['Admin_id'];
-                    header('refresh: 2; dashboard.php');
+                    header('refresh: 1; dashboard.php');
                 } else {
                     echo "<div class='container'>";
                         echo "<div class='alert alert-danger'>Your Password is wrong</div>";
